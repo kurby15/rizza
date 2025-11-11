@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 18th Birthday, Klaudine!</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+
+  <!-- Background Music -->
+  <iframe id="birthdaySong" width="0" height="0"
+    src="https://www.youtube.com/embed/ZY4P729oEvI?autoplay=1&controls=0&loop=1&playlist=ZY4P729oEvI"
+    title="Happy Birthday Song" frameborder="0" allow="autoplay"></iframe>
+
+  <div class="container">
+
+    <!-- 🎉 HEADER ABOVE CAKE 🎉 -->
+    <div class="header">
+      <h1>🎉 Happy 23rd Birthday, <span class="name">Rizza</span>! 🎉</h1>
+      <p class="instruction">Make a wish and blow out the candles!</p>
+    </div>
+
+    <!-- 🎂 CAKE AND CANDLES SECTION -->
+    <div class="cake">
+      <div class="plate"></div>
+      <div class="layer layer-bottom"></div>
+      <div class="layer layer-middle"></div>
+      <div class="layer layer-top"></div>
+      <div class="icing"></div>
+      <div class="drip drip1"></div>
+      <div class="drip drip2"></div>
+      <div class="drip drip3"></div>
+
+      <!-- Candles -->
+      <div class="candles">
+        <div class="number-candle">
+          <span class="number">2</span>
+          <div class="flame"></div>
+        </div>
+        <div class="number-candle">
+          <span class="number">3</span>
+          <div class="flame"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🎁 BUTTONS BELOW CAKE -->
+    <button id="relightBtn" style="display:none;">🎂 Relight Candles</button>
+    <button id="showGiftsBtn">💝 Show Your Gifts</button>
+  </div>
+
+  <canvas id="confetti"></canvas>
+
+  <!-- 💌 Surprise Section -->
+  <div id="surprise-section" class="hidden">
+    <h2>💌 These Are For You 💐</h2>
+    <p>Click to open!</p>
+    <div class="gift-container">
+      <a href="html/letter.html" class="gift-card">
+        <img src="let.png" alt="Envelope Icon">
+        <span>Letter</span>
+      </a>
+      <a href="html/flower.html" class="gift-card">
+        <img src="flower.png" alt="Tulip Icon">
+        <span>Flowers</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 🎊 Confetti & Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
